@@ -1,0 +1,30 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.personne-choisi{
+    width: 100%;
+    text-align: center;
+}
+
+.li-not-passed, .li-passed, div-btn-choisir{
+    width: 33%;
+    text-align: center;
+}
+body{
+    background-color: rgb(16, 29, 49);
+    color: white;
+}
+
+h1{
+    color: rgb(212, 141, 25);
+}
+#btn-choisir{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background-color: rgb(216, 4, 4);
+    font-size: 26px;
+    border: none;
+}
