@@ -27,7 +27,9 @@ function joue(choice){
     if(playerChoice == computerChoice){
         quiGagne.innerHTML = "Match nul"
     }else if(playerChoice == "lezard") {
-        if(computerChoice == ""){}
+        if(computerChoice == "spock" || computerChoice == "feuille"){
+            quiGagne.innerHTML =  "";
+        }
         
 
     }
