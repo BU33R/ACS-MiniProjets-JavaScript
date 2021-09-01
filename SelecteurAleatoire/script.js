@@ -1,6 +1,4 @@
-// localStorage.removeItem("passed");
-// localStorage.removeItem("notPassed");
-// localStorage.removeItem("first");
+//localStorage.clear();
 let notPassed = []
 let passed = []
 
