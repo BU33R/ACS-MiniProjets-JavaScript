@@ -76,7 +76,7 @@ body ul li:before {
   content: "✽";
   padding: 0.6rem;
   font-size: 1.3rem;
-  color: #fd3705;
+  color: #ff3300;
 }
 
 body ul li:after {
@@ -96,7 +96,7 @@ body ul .checked:before {
   content: "✔";
   padding: 10px 10px;
   font-size: 1.1rem;
-  color: #fd4a1d;
+  color: #ff3300;
 }
 
 body ul .checked:hover:after {
@@ -112,4 +112,3 @@ body ul .checked:hover:after {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
