@@ -31,7 +31,7 @@ for(element of listDesElements){
 function actualise(){
     counter = -1;
     allInputs = []
-    allInputs.
+
     for(element of listDesElements){
         counter += 1;
         
