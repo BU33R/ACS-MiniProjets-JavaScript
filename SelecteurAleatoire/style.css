@@ -3,9 +3,10 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.personne-choisi{
+.personne-chosen{
     width: 100%;
     text-align: center;
+    border: solid red 1px;
 }
 
 .li-not-passed, .li-passed, div-btn-choisir{
@@ -27,4 +28,7 @@ h1{
     background-color: rgb(216, 4, 4);
     font-size: 26px;
     border: none;
+}
+.apprenant{
+    height: 70px;
 }

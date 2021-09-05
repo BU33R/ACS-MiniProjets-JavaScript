@@ -47,3 +47,29 @@ function choisirGuy(){
         }
     }
 }
+
+
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+
+    ev.dataTransfer.setData("text", ev.target.id);
+    ev.target.style.opacity = "0"
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    console.log(data)
+    dragElement = document.getElementById(data)
+    ev.target.appendChild(dragElement);
+    dragElement.style.opacity = "1"
+}
+function refuseDrop(ev){
+    console.log("refes")
+    var data = ev.dataTransfer.getData("text");
+    dragElement = document.getElementById(data)
+    dragElement.style.opacity = "1"
+}
