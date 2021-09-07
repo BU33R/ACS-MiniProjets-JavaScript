@@ -38,10 +38,7 @@ h1{
     color: white;
 }
 #btn-choisir:active{
-    border-top: solid 2px black;
-    border-left: solid 2px rgb(0, 0, 0);
-    border-right: solid 2px rgb(0, 0, 0);
-    border-bottom: solid 2px rgb(0, 0, 0);
+    border: solid 2px rgb(12, 66, 110);
 }
 .apprenant{
     height: 50px;
@@ -51,8 +48,6 @@ h1{
     position: relative;
     border: solid 2px white;
 }
-
-
 
 #img-personne-choisi{
     height: 100px;

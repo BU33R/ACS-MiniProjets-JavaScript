@@ -200,21 +200,25 @@ function allowDrop(ev) {
     ev.preventDefault();
 }
 function drag(ev) {
+    console.log("rregerg", ev, ev.target.parentElement)
     ev.dataTransfer.setData("text", ev.target.id);
     ev.target.style.opacity = "0"
 }
 function drop(ev) {
     ev.preventDefault();
     var data = ev.dataTransfer.getData("text");
-    dragElement = document.getElementById(data)
+    console.log(data.parentElement)
+    dragElement = document.getElementById(data);
+    console.log(dragElement)
+    dragElement
     ev.target.appendChild(dragElement);
     dragElement.style.opacity = "1"
 }
-function refuseDrop(ev){
-    var data = ev.dataTransfer.getData("text");
-    dragElement = document.getElementById(data)
-    dragElement.style.opacity = "1"
-}
+// function refuseDrop(ev){
+//     var data = ev.dataTransfer.getData("text");
+//     dragElement = document.getElementById(data)
+//     dragElement.style.opacity = "1"
+// }
 
 //Autre fonctions
 function idGenerator(){

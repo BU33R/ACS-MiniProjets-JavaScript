@@ -9,10 +9,10 @@
 </head>
 <body >
     <div class="flex">
-        <div class="personne-chosen" >
+        <div class="personne-chosen" ondrop="drop(event)" ondragover="allowDrop(event)">
             <h3>C'est au tour de : </h3>
-            <h1 id="p-personne-choisi">La personne choisi est ...</h1>
-            <div id="div-personne-choisi" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <h1 id="p-personne-choisi">La personne choisie est ...</h1>
+            <div id="div-personne-choisi" ></div>
         </div>
         <div class="li-not-passed" id="lapin">
             <h3>Les apprenants pas encore passés :</h3>
