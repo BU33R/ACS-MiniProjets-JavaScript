@@ -68,7 +68,7 @@ let idGenerated = 0;
 
 // Les listes textuels d'apprenants
 let listNotPassed = []
-listNotPassed = ["Tommy", "Joselito", "Francis", "Alphonso", "Dylan", "Yamina", "Laurent", "Arthur", "Céleste", "Lucas", "Aleadin", "Marley"]
+listNotPassed = ["Tommy", "Joselito", "Francis", "Alfonso", "Dylan", "Yamina", "Laurent", "Arthur", "Céleste", "Lucas", "Aleaddine", "Marley"]
 let listPassed = []
 let pGuyChoiced = document.getElementById("p-personne-choisi")
 let pNotPassed = document.getElementById("not-passed")
@@ -82,8 +82,8 @@ let passed = []
 
 //Data
 let images=["icon.svg", "icon.svg", "icon.svg", "icon.svg","icon.svg", "icon.svg", "icon.svg", "icon.svg","icon.svg", "icon.svg", "icon.svg", "icon.svg" ]
-let photos = {Francis: "images/francis.png", Tommy:"icon.svg", Joselito:"icon.svg", Alphonso:"icon.svg", Dylan:"icon.svg", Yamina:"icon.svg",
-              Laurent:"icon.svg", Arthur:"icon.svg", Céleste:"icon.svg", Lucas:"icon.svg", Aleadin:"icon.svg", Marley:"icon.svg"}
+let photos = {Francis: "images/francis.png", Tommy:"icon.svg", Joselito:"icon.svg", Alfonso:"icon.svg", Dylan:"icon.svg", Yamina:"icon.svg",
+              Laurent:"icon.svg", Arthur:"icon.svg", Céleste:"icon.svg", Lucas:"icon.svg", Aleaddine:"icon.svg", Marley:"icon.svg"}
 
 //Boutons
 let btnChoisir = document.getElementById("btn-choisir")
@@ -96,7 +96,7 @@ let areaNotPassed = document.getElementById('lapin')
 let areaPassed = document.getElementById('personne-passee')
 
 if(!localStorage.getItem("first")){
-    listNotPassed = ["Tommy", "Joselito", "Francis", "Alphonso", "Dylan", "Yamina", "Laurent", "Arthur", "Céleste", "Lucas", "Aleadin", "Marley"]
+    listNotPassed = ["Tommy", "Joselito", "Francis", "Alfonso", "Dylan", "Yamina", "Laurent", "Arthur", "Céleste", "Lucas", "Aleaddine", "Marley"]
     listPassed = []
 
 }else{
