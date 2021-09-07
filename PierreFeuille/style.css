@@ -1,0 +1,232 @@
+body {
+    background-image: url(images/dbsok4t-93dcb2b8-9032-4beb-9a2c-5b6eea58aa2b.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0;
+
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size:3em;
+}
+
+#scores{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    text-align: center;
+    margin-top: 1em;
+}
+#pfc button{
+    /*background-color: #5c88da;*/
+    background-image: url(images/vieux-papier-vintage-vieux-fond-texture_34266-532.webp);
+    border-radius: 10%;
+    margin: 1em 1em 5em 0;
+    padding: 2em;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0em 1em 0.5em 0em #dfc9aa;
+    border: none;
+    transition: all 0.2s ;
+    -webkit-tap-highlight-color: transparent;
+}
+#pfc button:hover{
+    box-shadow: 0em 1.5em 0.5em 0em #f3f3f3;
+
+}
+#pfc button:active{
+    box-shadow: 0em 1em 1em 0em #f3f3f3;
+    transform: translateY(1em);
+}
+
+#result {
+    transition: all 0.5s ;
+    font-size: 2em;
+}
+
+#scorej, #scorep{
+    color: aliceblue;
+    font-size: 24px;
+    margin: 1em;
+}
+
+.resultpartie{
+   background-color: rgba(173, 115, 82, 0.63);
+    float: right;
+    width: 400px;
+    height: 100px;
+    margin: -120px 0 0 0;
+    border: solid white 2px;
+}
+
+
+.resetbutton{
+    float: left;
+    width: 100px;
+    height: 30px;
+    margin: -60px 0 0 40px;
+}
+
+.resetbutton button{
+   background-color: #39516d;
+   padding: 0.3em 1.2em;
+   margin: 0 0.1em 0 0;
+   border: 0.16em solid #fff;
+   border-radius: 2em;
+   box-sizing: border-box;
+   text-decoration: none;
+   font-family: 'ZCOOL KuaiLe', cursive;
+   font-weight: 300;
+   color: #fff;
+   text-shadow: 0 0.04em 0.04em #000;
+   text-align: center;
+   transition: all 0.2s;
+   width: 120px;
+   height: 30px;
+}
+
+.resetbutton button:hover{
+    border-color:#ff6052;
+    color: #ff6052;
+}
+
+.images{
+    width: 100px;
+}
+
+.imageversus{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 29em;
+}
+
+.imageversus h1{
+    text-align: center;
+    margin: 0 10% 0 10%;
+    font-family: 'Press Start 2P', cursive;
+    font-size:3em;
+    
+}
+
+#afficheimagesJ{
+    width: 120px;
+    height: 120px;
+    margin: 0 10px 0 10px;
+}
+
+#afficheimagesC{
+    width: 120px;
+    height: 120px;
+    margin: 0 10px 0 10px;
+}
+
+
+.score{
+    width: 100%;
+    margin-top: 7em ;
+}
+
+/* MEDIA QUERIES
+*****************/
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 1024px) and (min-width : 480px) {
+    #pfc button{
+        width: 70px;
+        height: 70px;
+        background-image: url(images/vieux-papier-vintage-vieux-fond-texture_34266-532.webp);
+        border-radius: 10%;
+        cursor: pointer;
+        outline: none;
+        box-shadow: 0em 1em 0.5em 0em #dfc9aa;
+        border: none;
+        transition: all 0.2s ;
+        -webkit-tap-highlight-color: transparent;
+    }
+    
+    #pfc img{
+        width: 40px;
+        height: 40px;
+        
+    }
+
+    #partie{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .resetbutton{
+        display: none;
+    }
+
+    .imageversus{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .imageversus h1{
+        text-align: center;
+        margin: 0 10% 0 10%;
+        font-family: 'Press Start 2P', cursive;
+        font-size:20px;
+        width: 100%;   
+    }
+    
+    #afficheimagesJ{
+        float: right;
+        width: 100%;
+        margin: 0 10px 0 10px;
+    }
+    
+    #afficheimagesC{
+        float: left;
+        width: 100%;
+        margin: 0 10px 0 10px;
+    }
+
+    .resultpartie{
+        background-color: rgba(173, 115, 82, 0.63);
+         float: right;
+         width: 400px;
+         height: 100px;
+         margin: 0 0 10px 0;
+         border: solid white 2px;
+         width: 100%;
+     }
+
+     #nbmpartie{
+         margin-bottom: 10px;
+     }
+    
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

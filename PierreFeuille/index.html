@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>SHIFUMI</title>
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Mono+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>SHIFUMI</h1>
+    </header>
+
+    <div class="container">
+        <div id="pfc">
+            <button type="button" name="pierre" id="pierre"><img src="images/pierre.png"></button>
+            <button type="button" name="feuille" id="feuille"><img src="images/feuille.png"></i></button>
+            <button type="button" name="ciseaux" id="ciseaux"><img src="images/ciseaux.png"></i></button>
+            <button type="button" name="spock" id="spock"><img src="images/spock.png"></button>
+            <button type="button" name="lezard" id="lezard"><img src="images/lezard.png"></i></button>
+        </div>
+
+        <div>
+            <p id="partie"></p>
+            <h2 id="result"></h2>
+        </div>
+
+        <div class="imageversus">
+            <div id="afficheimagesC">
+                <img src="" alt="" id="img_computer">
+            </div>
+            <h1>VS</h1>
+            <div id="afficheimagesJ">
+                <img src="" alt="" id="img_joueur">
+            </div>
+        </div>
+
+
+
+        <div class="scores">
+            <div id="scorep"></div>
+            <div id="scorej"></div>
+        </div>
+
+        <div id="nbmpartie"></div>
+
+        <div class="resultpartie">
+            <h2 id="scores">SCORE :</h2>
+            <div id="computer"></div>
+            <div id="joueur"></div>
+        </div>
+
+        <div class="resetbutton">
+            <button id="reset">RESET !</button>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
