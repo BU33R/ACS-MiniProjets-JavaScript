@@ -9,24 +9,27 @@
 </head>
 <body >
     <div class="flex">
-        <div class="personne-chosen" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div class="personne-chosen" >
             <h3>C'est au tour de : </h3>
-            <h1 id="personne-choisi">La personne choisi est ...</h1>
+            <h1 id="p-personne-choisi">La personne choisi est ...</h1>
+            <div id="div-personne-choisi" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
         </div>
-        <div class="li-not-passed">
+        <div class="li-not-passed" id="lapin">
             <h3>Les apprenants pas encore passés</h3>
             <p id="not-passed"></p>
-            <img src="https://pbs.twimg.com/profile_images/419586950018764800/gyfUrZ1v_400x400.jpeg" alt="Someone" class="apprenant" 
-            draggable="true" ondragstart="drag(event)" id="fgvsrfg">
         </div>
         <div class="div-btn-choisir">
             <button id = "btn-choisir">
-            <p>Choisir aléatoirement un apprenant</p>
+                <p>Choisir aléatoirement un apprenant</p>
+            </button>
+            <button id = "btn-ok">
+                <p>ok</p>
             </button>
         </div>
         <div  class="li-not-passed">
             <h3>Les apprenants déjà passés</h3>
             <p id="passed"></p>
+            <div id="personne-passee" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
         </div>
     </div>
 

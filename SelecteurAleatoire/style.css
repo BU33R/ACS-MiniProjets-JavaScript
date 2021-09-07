@@ -5,8 +5,12 @@
 }
 .personne-chosen{
     width: 100%;
+    height: 250px;
     text-align: center;
     border: solid red 1px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .li-not-passed, .li-passed, div-btn-choisir{
@@ -30,5 +34,14 @@ h1{
     border: none;
 }
 .apprenant{
-    height: 70px;
+    height: 50px;
+    transition: all .5s ease-in-out;
+    border-radius: 50px;
+    /* border: solid, 3px black; */
+}
+
+#img-personne-choisi{
+    height: 100px;
+    width: 150px;
+    background-color: cadetblue;
 }
