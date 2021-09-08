@@ -69,4 +69,7 @@ h1{
     }
     .personne-chosen{
         height: 160px;}
+    h3{
+        font-size: calc(1.75rem - 0.5vw);
+    }
 }
